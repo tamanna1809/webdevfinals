@@ -1,0 +1,168 @@
+*{
+    margin: 0px;
+}
+
+nav{
+    width: 100%;
+    height: 6rem;
+    background-color: white;
+    display: flex;
+    justify-content: space-between; 
+    box-sizing: border-box;
+    padding: 20px;
+    border-bottom: grey 1px solid;
+    position: fixed;
+   
+}
+
+.pic1{
+    margin-left: 5rem;
+    height: 3rem;
+    width: 10rem;
+}
+
+.pic2{
+    margin-right: 5rem;
+    height: 3rem;
+    width: 21rem;
+}
+
+.twitter{
+    background-color: black;
+    
+    height: 61.5rem;
+    width: 100%;
+    display: flex;
+
+
+}
+
+.tweet{
+    background-color: aliceblue;
+    height: 61.5rem;
+    width: 60%;
+    /* padding: 200px; */
+    box-sizing: border-box;
+
+}
+.post{
+    background-color: white;
+    height: 61.5rem;
+    width: 40%;
+    padding: 30px;
+}
+
+.typebox{
+    height: 50%;
+    width: 100%;
+    background-color: aliceblue ;
+    margin-top: 300px;
+}
+
+.tweet textarea{
+    height: 100%;
+    width: 90%;
+    border: none;
+    outline: none;
+    resize: none;
+    font-size: 2rem;
+    padding: 2rem;
+    /* border-right: 1px solid black; */
+    /* border-bottom: 1px solid black; */
+    box-sizing: border-box;
+    border-radius: 13px;
+    
+    /* margin-left: 2rem; */
+}
+
+.tweet h3{
+    margin-left: 8rem;
+    font-size: 30px;
+    font-style: italic;
+}
+
+
+.box{
+    height: 65%;
+    width: 70%;
+    background-color: white;
+    margin-left: 8rem;
+    box-sizing: border-box;
+    border-radius: 13px;
+    border: grey 1px solid ;
+    display: flex;
+    flex-direction: column;
+}
+button {
+    background-color: #1B6AC4;
+    border-radius: 30px;
+    color: white;
+    font-size: 20px;
+    /* padding: 5px; */
+    text-align: center;
+    height: 40px;
+    width: 100px;
+}
+
+.text-img{
+    display: flex;
+    flex-direction: row;
+    height: 70%;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+}
+.btn-score{
+    display: flex;
+    flex-direction: row;
+    height: 30%;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px 0px 20px;
+    box-sizing: border-box;
+
+}
+.text-img img{
+    height: 70px;
+    width: 70px;
+    
+
+}
+
+.feed h3{
+    margin-top: 5rem;
+    font-size: 30px;
+    font-style: italic;
+
+}
+
+.feedpost{
+    width: 50%;
+    display: flex;
+    border: grey 1px solid;
+    border-radius: 10px;
+    padding: 10px;
+    /* flex-direction: column; */
+}
+
+
+.titles{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 10px;
+}
+
+textarea{
+    border: none;
+    outline: none;
+    resize: none;
+}
+
+
+
+
+
+
+
